@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Práctica 1 | Portafolio</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="REPORTE PRACTICA 1
+INGENIERIA EN SOFTWARE Y TECNOLOGIAS EMERGENTES
+PARADIGMAS DE LA PROGRAMACION
+Elementos básicos de los lenguajes de programación
+OSCAR ARMANDO MEDINA GUTIERREZ 376020
+PROF CARLOS GALLEGOS
+
+OBJETIVO
+El objetivo de esta práctica es identificar los elementos fundamentales de los lenguajes de programación: nombres, marcos de activación, bloques de alcance, administración de memoria, expresiones, comandos, control de secuencia como lo es; selección, iteración y recursión, subprogramas, y tipos de datos">
+    <meta name="generator" content="Hugo 0.149.0">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/PORTAFOLIO/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://oscar845-s.github.io/PORTAFOLIO/practicas/practica1/">
+    
+
+    <meta property="og:url" content="https://oscar845-s.github.io/PORTAFOLIO/practicas/practica1/">
+  <meta property="og:site_name" content="Portafolio">
+  <meta property="og:title" content="Práctica 1">
+  <meta property="og:description" content="REPORTE PRACTICA 1 INGENIERIA EN SOFTWARE Y TECNOLOGIAS EMERGENTES PARADIGMAS DE LA PROGRAMACION Elementos básicos de los lenguajes de programación OSCAR ARMANDO MEDINA GUTIERREZ 376020 PROF CARLOS GALLEGOS OBJETIVO El objetivo de esta práctica es identificar los elementos fundamentales de los lenguajes de programación: nombres, marcos de activación, bloques de alcance, administración de memoria, expresiones, comandos, control de secuencia como lo es; selección, iteración y recursión, subprogramas, y tipos de datos">
+  <meta property="og:locale" content="es_mx">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="practicas">
+    <meta property="article:published_time" content="2025-11-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-13T00:00:00+00:00">
+
+  <meta itemprop="name" content="Práctica 1">
+  <meta itemprop="description" content="REPORTE PRACTICA 1 INGENIERIA EN SOFTWARE Y TECNOLOGIAS EMERGENTES PARADIGMAS DE LA PROGRAMACION Elementos básicos de los lenguajes de programación OSCAR ARMANDO MEDINA GUTIERREZ 376020 PROF CARLOS GALLEGOS OBJETIVO El objetivo de esta práctica es identificar los elementos fundamentales de los lenguajes de programación: nombres, marcos de activación, bloques de alcance, administración de memoria, expresiones, comandos, control de secuencia como lo es; selección, iteración y recursión, subprogramas, y tipos de datos">
+  <meta itemprop="datePublished" content="2025-11-13T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-11-13T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2521">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Práctica 1">
+  <meta name="twitter:description" content="REPORTE PRACTICA 1 INGENIERIA EN SOFTWARE Y TECNOLOGIAS EMERGENTES PARADIGMAS DE LA PROGRAMACION Elementos básicos de los lenguajes de programación OSCAR ARMANDO MEDINA GUTIERREZ 376020 PROF CARLOS GALLEGOS OBJETIVO El objetivo de esta práctica es identificar los elementos fundamentales de los lenguajes de programación: nombres, marcos de activación, bloques de alcance, administración de memoria, expresiones, comandos, control de secuencia como lo es; selección, iteración y recursión, subprogramas, y tipos de datos">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/PORTAFOLIO/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Portafolio
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/PORTAFOLIO/practicas/" title="Prácticas page">
+              Prácticas
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/PORTAFOLIO/posts/" title="Principal page">
+              Principal
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Practicas
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Práctica 1</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-11-13T00:00:00Z">November 13, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="reporte-practica-1">REPORTE PRACTICA 1</h2>
+<h2 id="ingenieria-en-software-y-tecnologias-emergentes">INGENIERIA EN SOFTWARE Y TECNOLOGIAS EMERGENTES</h2>
+<h3 id="paradigmas-de-la-programacion">PARADIGMAS DE LA PROGRAMACION</h3>
+<h3 id="elementos-básicos-de-los-lenguajes-de-programación">Elementos básicos de los lenguajes de programación</h3>
+<h3 id="oscar-armando-medina-gutierrez-376020">OSCAR ARMANDO MEDINA GUTIERREZ 376020</h3>
+<h3 id="prof-carlos-gallegos">PROF CARLOS GALLEGOS</h3>
+<hr>
+<h2 id="objetivo">OBJETIVO</h2>
+<p>El objetivo de esta práctica es identificar los elementos fundamentales de los lenguajes de programación: nombres, marcos de activación, bloques de alcance, administración de memoria, expresiones, comandos, control de secuencia como lo es; selección, iteración y recursión, subprogramas, y tipos de datos</p>
+<h2 id="desarrollo">DESARROLLO</h2>
+<h3 id="1nombres">1.NOMBRES</h3>
+<p>En C, un nombre o identificador es una etiqueta que el programador asigna a un elemento del código, como una variable, una función, un tipo de dato, o una constante, para poder referenciarlo y usarlo fácilmente a lo largo del programa.</p>
+<p>En todo el codigo existen diversos nombres que van desde</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span> <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library <span style="color:#f92672">=</span> NULL;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members <span style="color:#f92672">=</span> NULL;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> bookCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, memberCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> choice <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span></code></pre></div><p>siendo estos para declarar los nombres de las variables entero y de tipo book_t y member_t.</p>
+<p>O otras como serian</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayBooksRecursive</span>(<span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayBooks</span>(<span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library);
+</span></span></code></pre></div><p>Siendo estas para nombres de funciones que se pueden identificar facilmente por el hecho de que llevan una palabra clave antes como pueden ser</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">char</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span>
+</span></span></code></pre></div><p>Entre otros.</p>
+<h3 id="2marcos-de-activacion">2.MARCOS DE ACTIVACION</h3>
+<p>Un marco de activación (también conocido como activation record o stack frame) es una estructura de datos que se coloca en la pila de ejecución (runtime stack) cada vez que se llama a un subprograma (función, procedimiento o método).</p>
+<p>Los marcos de activacion generalmente incluyen:</p>
+<ul>
+<li><strong>Direccion de retorno</strong> Es donde el programa debe de continuar cuando termine la funcion</li>
+<li><strong>Parametros</strong> Los valores que la funcion recibio al ser llamada</li>
+<li><strong>Variables locales</strong> Las que se crean dentro del subprograma</li>
+<li><strong>Espacio Temporal</strong> Para resultados parciales de expresiones</li>
+<li><strong>Enlace Dinamico/Estatico</strong> Para manejar bloques de alcance y funciones anidadas</li>
+</ul>
+<p>Un ejemplo en el programa seria:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>members) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">No hay miembros disponibles.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Miembros disponibles en biblioteca:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (current) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Nombre: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Cantidad de libros prestados: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>            current<span style="color:#f92672">-&gt;</span>id, current<span style="color:#f92672">-&gt;</span>name, current<span style="color:#f92672">-&gt;</span>issued_count);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (book) {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, book<span style="color:#f92672">-&gt;</span>id, book<span style="color:#f92672">-&gt;</span>title, book<span style="color:#f92672">-&gt;</span>author);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>En este caso cuando el programa entra a displayMembers, en la pila de ejecución se crea un marco con:</p>
+<ul>
+<li>Parametros
+<ul>
+<li>Members</li>
+<li>library</li>
+</ul>
+</li>
+<li>Variables locales
+<ul>
+<li>current</li>
+<li>el indice i dentro del for</li>
+<li>el puntero book dentro del for</li>
+</ul>
+</li>
+<li>Direccion de retorno</li>
+</ul>
+<p>En este caso la direccion de retorno es:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">case</span> <span style="color:#ae81ff">6</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMembers</span>(members, library);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">break</span>;
+</span></span></code></pre></div><p>Que se encuentra en la funcion main</p>
+<p>Dentro de la funcion displaymembers ocurren otras llamadas internas creando marcos adicionales</p>
+<p>siendo las funciones</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">displayMemoryUsage</span>()
+</span></span></code></pre></div><p>Todas las funciones generan un marco de activación al ser llamadas.</p>
+<p>En el caso de la funcion displayMembers tiene su propio marco de activacion y dentro de ella se generan marcos adicionales cuando se llama a findBookById y displayMemoryUsage.</p>
+<h3 id="3bloques-de-alcance">3.BLOQUES DE ALCANCE</h3>
+<p>Un bloque de alcance (scope block) es la región del programa en la que un nombre (una variable, función, constante, etc.) es visible y accesible.</p>
+<h4 id="tipos-de-alcance-en-c">Tipos de alcance en C</h4>
+<ol>
+<li>Alcance global
+<ul>
+<li>Se declara en cualquier funcion</li>
+<li>La variable se puede usar en todo el archivo</li>
+</ul>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> static_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> bss_var;
+</span></span></code></pre></div><p>Estas dos varibles son accecibles desde todo el proyecto</p>
+<ol>
+<li>Alcance local
+<ul>
+<li>Se declara dentro de una funcion o bloque</li>
+<li>Solo existe y es accesible mientras el bloque se esté ejecutando.</li>
+</ul>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">searchMember</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> memberID;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Ingresa el ID del miembro: &#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">scanf</span>(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>memberID);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (current) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (current<span style="color:#f92672">-&gt;</span>id <span style="color:#f92672">==</span> memberID) {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Nombre: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Cantidad de libros prestados: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>                current<span style="color:#f92672">-&gt;</span>id, current<span style="color:#f92672">-&gt;</span>name, current<span style="color:#f92672">-&gt;</span>issued_count);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (book) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, book<span style="color:#f92672">-&gt;</span>id, book<span style="color:#f92672">-&gt;</span>title, book<span style="color:#f92672">-&gt;</span>author);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">displayMemoryUsage</span>();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Miembro no encontrado.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>En este caso las variables memberID,i,*book y otras solo se pueden usar dentro de la funcion y no otras</p>
+<ol>
+<li>Alcance de bloque anidado
+<ul>
+<li>Dentro de un bloque {} se puede declarar una variable que oculta otra con el mismo nombre en un nivel superior.</li>
+</ul>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;  <span style="color:#75715e">// alcance: toda la función
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (current) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (book) {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, book<span style="color:#f92672">-&gt;</span>title);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>las variables members, library y current tienen alcance local de la función.</p>
+<p>mientras que I tiene alcance dentro del for</p>
+<p>book tiene alcance solo en el if y for</p>
+<p>Cuando la funcion termina todas las variables dejan de existir</p>
+<h3 id="4administracion-de-memoria">4.ADMINISTRACION DE MEMORIA</h3>
+<p>La adminstacion de memorias es el proceso de reservar, usar y liberar memoria durante la ejecución de un programa.</p>
+<p>En c se organizan la mayoria en los siguientes tipos:</p>
+<ol>
+<li>Memoria estática (o global):
+<ol>
+<li>Para variables globales y variables estáticas.</li>
+<li>Se reserva al iniciar el programa y se libera solo cuando termina.</li>
+</ol>
+</li>
+</ol>
+<p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> contador <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#75715e">// memoria global
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> total; <span style="color:#75715e">// también se guarda en memoria estática
+</span></span></span></code></pre></div><ol>
+<li>Memoria de pila (stack):
+<ol>
+<li>Para parámetros de funciones y variables locales.</li>
+<li>Se reserva automáticamente al entrar en un bloque de alcance y se libera al salir.</li>
+</ol>
+</li>
+</ol>
+<p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">funcion</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>; <span style="color:#75715e">// en la pila
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>} <span style="color:#75715e">// aquí x desaparece
+</span></span></span></code></pre></div><ol>
+<li>Memoria dinámica (heap):
+<ol>
+<li>Se gestiona manualmente con malloc, calloc, realloc y free.</li>
+<li>Tú decides cuándo reservar y cuándo liberar.</li>
+</ol>
+</li>
+</ol>
+<p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>arr <span style="color:#f92672">=</span> <span style="color:#a6e22e">malloc</span>(<span style="color:#ae81ff">5</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">sizeof</span>(<span style="color:#66d9ef">int</span>)); <span style="color:#75715e">// reservado en heap
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// ... usar arr ...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">free</span>(arr); <span style="color:#75715e">// liberar memoria
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (current) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (book) {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>                        book<span style="color:#f92672">-&gt;</span>id, book<span style="color:#f92672">-&gt;</span>title, book<span style="color:#f92672">-&gt;</span>author);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>En esta funcion podemos observar lo siguiente</p>
+<ul>
+<li>
+<p>members, library, current, i, book → viven en la pila (stack), porque son parámetros y variables locales.</p>
+</li>
+<li>
+<p>Los nodos de member_t y book_t fueron creados con malloc → ellos viven en el heap, hasta que se llame a free.</p>
+</li>
+<li>
+<p>displayMemoryUsage() Te muestra cuánta memoria está en uso en ese momento.</p>
+</li>
+</ul>
+<p>Por ultimo es importante Liberar la memoria cuando no lo necesites para evitar fugas de memoria</p>
+<h3 id="5expresiones">5.EXPRESIONES</h3>
+<p>Una expresión es una combinación de operadores (como +, -, *, &amp;&amp;, ==), operandos (variables, constantes, literales) y a veces llamadas a funciones, que produce un valor.</p>
+<h4 id="tipos-de-expresiones-en-c">Tipos de expresiones en c</h4>
+<ol>
+<li>Artimeticas</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span>;      <span style="color:#75715e">// suma
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> y <span style="color:#f92672">=</span> x <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>;      <span style="color:#75715e">// multiplicación
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> z <span style="color:#f92672">=</span> y <span style="color:#f92672">%</span> <span style="color:#ae81ff">3</span>;      <span style="color:#75715e">// residuo
+</span></span></span></code></pre></div><ol>
+<li>Relacionales</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&gt;</span> y) { ... }  <span style="color:#75715e">// &#34;x es mayor que y&#34;
+</span></span></span></code></pre></div><ol>
+<li>Logicas</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> y <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>) { ... }  <span style="color:#75715e">// AND lógico
+</span></span></span></code></pre></div><ol>
+<li>Asignacion</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>total <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> y;  <span style="color:#75715e">// asignación
+</span></span></span></code></pre></div><ol>
+<li>De punteros</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>x;   <span style="color:#75715e">// dirección de x
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> val <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>ptr;  <span style="color:#75715e">// valor apuntado por ptr
+</span></span></span></code></pre></div><ol>
+<li>De funcion</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> <span style="color:#a6e22e">strlen</span>(<span style="color:#e6db74">&#34;Hola&#34;</span>);  <span style="color:#75715e">// devuelve 4
+</span></span></span></code></pre></div><p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (current) {                     <span style="color:#75715e">// expresión lógica (evaluar si current != NULL)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, 
+</span></span><span style="display:flex;"><span>           current<span style="color:#f92672">-&gt;</span>id);              <span style="color:#75715e">// acceso a estructura → expresión de puntero
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// i &lt; current-&gt;issued_count → expresión relacional
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// llamada a función → expresión de función
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#75715e">// current-&gt;issued_books[i] → expresión de índice en arreglo
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (book) {                   <span style="color:#75715e">// expresión lógica (book != NULL)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, book<span style="color:#f92672">-&gt;</span>title);  
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;          <span style="color:#75715e">// expresión de asignación con puntero
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>En la práctica:</p>
+<ul>
+<li>
+<p>Las expresiones aritméticas aparecen poco (ejemplo: i++).</p>
+</li>
+<li>
+<p>Las expresiones lógicas y relacionales se usan en while, for, if.</p>
+</li>
+<li>
+<p>Las expresiones de punteros están en current-&gt;id, current-&gt;next, book-&gt;title.</p>
+</li>
+<li>
+<p>Las expresiones de función aparecen en llamadas como findBookById(&hellip;) y displayMemoryUsage().</p>
+</li>
+</ul>
+<h3 id="6comandos">6.COMANDOS</h3>
+<p>En el contexto de los lenguajes de programación, un comando (también llamado sentencia o statement) es una instrucción completa que el programa ejecuta.</p>
+<h4 id="tipos-de-comandos-en-c">Tipos de comandos en c</h4>
+<ol>
+<li>Comandos de expresión</li>
+</ol>
+<p>Una expresión seguida de ;, que realiza algo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;         <span style="color:#75715e">// asignación
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">funcion</span>();         <span style="color:#75715e">// llamada a función
+</span></span></span></code></pre></div><ol>
+<li>Comandos de selección (control condicional)</li>
+</ol>
+<p>if, if&hellip;else, switch.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;positivo&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;no positivo&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ol>
+<li>Comandos de iteración (bucles)</li>
+</ol>
+<p>for, while, do&hellip;while.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, i);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ol>
+<li>Comandos de salto</li>
+</ol>
+<p>break, continue, return.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span></code></pre></div><ol>
+<li>Comandos compuestos (bloques)</li>
+</ol>
+<p>Un conjunto de comandos encerrados entre { &hellip; }.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, a<span style="color:#f92672">+</span>b);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>members) {                               <span style="color:#75715e">// comando de selección
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">No hay miembros disponibles.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>); <span style="color:#75715e">// comando de expresión (llamada a función)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span>;                                   <span style="color:#75715e">// comando de salto
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;                  <span style="color:#75715e">// comando de expresión (asignación)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Miembros disponibles en biblioteca:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>); <span style="color:#75715e">// comando de expresión
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (current) {                             <span style="color:#75715e">// comando de iteración (while)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Nombre: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Cantidad de libros prestados: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>            current<span style="color:#f92672">-&gt;</span>id, current<span style="color:#f92672">-&gt;</span>name, current<span style="color:#f92672">-&gt;</span>issued_count); <span style="color:#75715e">// comando de expresión
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {        <span style="color:#75715e">// comando de iteración (for)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]); <span style="color:#75715e">// comando de expresión
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> (book) {                         <span style="color:#75715e">// comando de selección (if)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, 
+</span></span><span style="display:flex;"><span>                        book<span style="color:#f92672">-&gt;</span>id, book<span style="color:#f92672">-&gt;</span>title, book<span style="color:#f92672">-&gt;</span>author);    <span style="color:#75715e">// comando de expresión
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;                <span style="color:#75715e">// comando de expresión
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();                       <span style="color:#75715e">// comando de expresión
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>En la práctica, los comandos que más aparecen son:</p>
+<ul>
+<li>
+<p>De expresión: asignaciones, llamadas a funciones, incrementos (i++).</p>
+</li>
+<li>
+<p>De selección: if (decidir si hay miembros, si existe un libro).</p>
+</li>
+<li>
+<p>De iteración: while y for (recorrer la lista y los libros).</p>
+</li>
+<li>
+<p>De salto: return (salida temprana de la función).</p>
+</li>
+<li>
+<p>Compuestos: los bloques { &hellip; } que agrupan instrucciones.</p>
+</li>
+</ul>
+<h3 id="7control-de-secuencias">7.CONTROL DE SECUENCIAS</h3>
+<p>Los controles de secuencia son las estructuras que permiten dirigir el flujo de ejecución de un programa: decidir qué hacer, repetir acciones, o incluso llamar funciones recursivamente.</p>
+<h4 id="selecion">SELECION</h4>
+<p>Permite elegir entre dos o más caminos.</p>
+<p>Ejemplos: if, if&hellip;else, switch.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Positivo&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;No positivo&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="iteracion">ITERACION</h4>
+<p>Permite ejecutar un bloque varias veces.</p>
+<p>Ejemplos: while, for, do&hellip;while.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, i);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="recursion">RECURSION</h4>
+<p>Una función que se llama a sí misma, en vez de usar un bucle.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">factorial</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> n <span style="color:#f92672">*</span> <span style="color:#a6e22e">factorial</span>(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>members) {                                  <span style="color:#75715e">// Selección
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">No hay miembros disponibles.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);  <span style="color:#75715e">// Secuencia simple
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span>;                                      <span style="color:#75715e">// Salto
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Miembros disponibles en biblioteca:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (current) {                                <span style="color:#75715e">// Iteración (while)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Nombre: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Cantidad de libros prestados: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>            current<span style="color:#f92672">-&gt;</span>id, current<span style="color:#f92672">-&gt;</span>name, current<span style="color:#f92672">-&gt;</span>issued_count);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {   <span style="color:#75715e">// Iteración (for)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]); <span style="color:#75715e">// Secuencia simple
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> (book) {                                    <span style="color:#75715e">// Selección (if)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>                        book<span style="color:#f92672">-&gt;</span>id, book<span style="color:#f92672">-&gt;</span>title, book<span style="color:#f92672">-&gt;</span>author);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;                           <span style="color:#75715e">// Secuencia simple
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();                                 <span style="color:#75715e">// Secuencia simple
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>En la práctica aparecen estos controles de secuencia:</p>
+<ul>
+<li>
+<p>Secuencia simple: ejecución de asignaciones y llamadas (current = current-&gt;next;, printf(&hellip;)).</p>
+</li>
+<li>
+<p>Selección: if (!members), if (book).</p>
+</li>
+<li>
+<p>Iteración: while (current), for (int i = 0; i &lt; current-&gt;issued_count; i++).</p>
+</li>
+<li>
+<p>Salto: return; (termina temprano si no hay miembros).</p>
+</li>
+<li>
+<p>Recursión: en esta función no aparece, pero podrías encontrarla en otras funciones (ej. para recorrer estructuras recursivas).</p>
+</li>
+</ul>
+<h3 id="8subprogramas">8.SUBPROGRAMAS</h3>
+<p>Un subprograma es un bloque de código con un nombre propio, diseñado para realizar una tarea específica y que se puede invocar (llamar) desde otro punto del programa.</p>
+<p>En C, los subprogramas se implementan como:</p>
+<ul>
+<li>
+<p>Funciones (devuelven un valor con return)</p>
+</li>
+<li>
+<p>Procedimientos (funciones void, que no devuelven nada)</p>
+</li>
+</ul>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ol>
+<li>
+<p>Nombre → cómo lo invocas (displayMembers, findBookById, etc.).</p>
+</li>
+<li>
+<p>Parámetros → valores que recibe para trabajar.</p>
+</li>
+<li>
+<p>Cuerpo → el bloque de instrucciones que ejecuta.</p>
+</li>
+<li>
+<p>Valor de retorno (opcional) → el resultado que entrega a quien lo llamó.</p>
+</li>
+<li>
+<p>Encapsulación → permite reutilizar código sin repetirlo.</p>
+</li>
+</ol>
+<p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>members) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">No hay miembros disponibles.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Miembros disponibles en biblioteca:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (current) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Nombre: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Cantidad de libros prestados: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>               current<span style="color:#f92672">-&gt;</span>id, current<span style="color:#f92672">-&gt;</span>name, current<span style="color:#f92672">-&gt;</span>issued_count);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (book) {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>                        book<span style="color:#f92672">-&gt;</span>id, book<span style="color:#f92672">-&gt;</span>title, book<span style="color:#f92672">-&gt;</span>author);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Subprogramas en la practica</p>
+<ul>
+<li>
+<p>displayMembers</p>
+<ul>
+<li>
+<p>Tipo: procedimiento (void).</p>
+</li>
+<li>
+<p>Parámetros: members, library.</p>
+</li>
+<li>
+<p>Cuerpo: recorre la lista de miembros y muestra sus datos.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>findBookById</p>
+<ul>
+<li>
+<p>Tipo: función (probablemente devuelve un book_t*).</p>
+</li>
+<li>
+<p>Parámetros: library, id.</p>
+</li>
+<li>
+<p>Uso: localizar un libro por su ID.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>displayMemoryUsage</p>
+<ul>
+<li>
+<p>Tipo: procedimiento (void).</p>
+</li>
+<li>
+<p>Sin parámetros.</p>
+</li>
+<li>
+<p>Uso: mostrar estadísticas de memoria.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="9tipos-de-datos">9.TIPOS DE DATOS</h3>
+<p>Los tipos de datos son la base de cualquier lenguaje de programación: definen qué clase de valores puede almacenar una variable y qué operaciones se pueden realizar sobre esos valores.</p>
+<h4 id="tipos-de-datos-en-c">Tipos de datos en c</h4>
+<ol>
+<li>Primitivos (básicos):</li>
+</ol>
+<ul>
+<li>
+<p>int → números enteros (-5, 42, 1000).</p>
+</li>
+<li>
+<p>float → números reales de precisión simple.</p>
+</li>
+<li>
+<p>double → números reales de doble precisión.</p>
+</li>
+<li>
+<p>char → un carácter (&lsquo;a&rsquo;, &lsquo;Z&rsquo;).</p>
+</li>
+<li>
+<p>void → ausencia de valor (usado en funciones).</p>
+</li>
+</ul>
+<ol>
+<li>Derivados:</li>
+</ol>
+<ul>
+<li>Arreglos → colección de datos del mismo tipo.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> numeros[<span style="color:#ae81ff">5</span>] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>};
+</span></span></code></pre></div><ul>
+<li>Punteros → almacenan direcciones de memoria.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>p;
+</span></span><span style="display:flex;"><span>p <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>numeros[<span style="color:#ae81ff">0</span>]; <span style="color:#75715e">// apunta al primer elemento
+</span></span></span></code></pre></div><ul>
+<li>Funciones → también son tipos de datos en C.</li>
+</ul>
+<ol>
+<li>Definidos por el usuario</li>
+</ol>
+<ul>
+<li>struct → agrupa diferentes tipos de datos.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> id;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> title[<span style="color:#ae81ff">50</span>];
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> author[<span style="color:#ae81ff">50</span>];
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">book_t</span>;
+</span></span></code></pre></div><ul>
+<li>typedef → alias para tipos ya definidos.</li>
+<li>enum → enumeraciones, listas de valores simbólicos.</li>
+</ul>
+<p>Ejemplo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">displayMembers</span>(<span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>members, <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>library) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">member_t</span> <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> members;   <span style="color:#75715e">// current es un puntero a struct member_t
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (current) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">ID miembro: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Nombre: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Cantidad de libros prestados: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>            current<span style="color:#f92672">-&gt;</span>id,           <span style="color:#75715e">// int
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            current<span style="color:#f92672">-&gt;</span>name,         <span style="color:#75715e">// char[]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            current<span style="color:#f92672">-&gt;</span>issued_count  <span style="color:#75715e">// int
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> current<span style="color:#f92672">-&gt;</span>issued_count; i<span style="color:#f92672">++</span>) {  <span style="color:#75715e">// i es int
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">book_t</span> <span style="color:#f92672">*</span>book <span style="color:#f92672">=</span> <span style="color:#a6e22e">findBookById</span>(library, current<span style="color:#f92672">-&gt;</span>issued_books[i]);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// book es un puntero a struct book_t
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#75715e">// issued_books[i] es un int (ID de libro)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (book) {
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;  Libro ID: %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Titulo: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">  Autor: %s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>,
+</span></span><span style="display:flex;"><span>                    book<span style="color:#f92672">-&gt;</span>id,       <span style="color:#75715e">// int
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                    book<span style="color:#f92672">-&gt;</span>title,    <span style="color:#75715e">// char[]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                    book<span style="color:#f92672">-&gt;</span>author);  <span style="color:#75715e">// char[]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;   <span style="color:#75715e">// current es puntero a siguiente miembro
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">displayMemoryUsage</span>();          <span style="color:#75715e">// no devuelve nada (void)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>En la practica hay</p>
+<ul>
+<li>
+<p>Primitivos:</p>
+<ul>
+<li>
+<p>int → IDs, contadores (id, issued_count, i).</p>
+</li>
+<li>
+<p>char[] → cadenas de caracteres (name, title, author).</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Derivados:</p>
+<ul>
+<li>
+<p>int issued_books[] → arreglo con IDs de libros.</p>
+</li>
+<li>
+<p>member_t * y book_t  → punteros a estructuras.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Definidos por el usuario:</p>
+<ul>
+<li>struct member_t y struct book_t (tipos definidos con typedef).</li>
+</ul>
+</li>
+<li>
+<p>Especial:</p>
+<ul>
+<li>void en la definición de displayMembers (no retorna valor).</li>
+</ul>
+</li>
+</ul>
+<h2 id="conclucion">CONCLUCION</h2>
+<p>Podemos concluir que es importante conocer como se compone los proyectos que los programadores realizan sin dar nada por conocer a fondo como funcionan es importante ya que asi podremos encotrar fallos en nuevos programas como tambien nos ayuda a ser mejores programadores ya que tenemos una comprension mayor de como funciona y de que esta compuesto los proyectos no solo de nuestros propios proyectos sino tambien de proyectos de otros programadores.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://oscar845-s.github.io/PORTAFOLIO/" >
+    &copy;  Portafolio 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Portafolio</title>
+    <link>https://oscar845-s.github.io/PORTAFOLIO/posts/</link>
+    <description>Recent content in Posts on Portafolio</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Fri, 29 Aug 2025 10:52:17 -0700</lastBuildDate>
+    <atom:link href="https://oscar845-s.github.io/PORTAFOLIO/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PORTAFOLIO</title>
+      <link>https://oscar845-s.github.io/PORTAFOLIO/posts/my-first-post/</link>
+      <pubDate>Fri, 29 Aug 2025 10:52:17 -0700</pubDate>
+      <guid>https://oscar845-s.github.io/PORTAFOLIO/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Bienvenido a mi portafolio 👋&lt;br&gt;&#xA;Aquí encontrarás todas mis prácticas, proyectos y trabajos del curso.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-qué-puedes-ver-aquí&#34;&gt;📘 ¿Qué puedes ver aquí?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mis prácticas realizadas (con explicaciones y código).&lt;/li&gt;&#xA;&lt;li&gt;Mis trabajos y reportes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-accesos-rápidos&#34;&gt;🚀 Accesos rápidos&lt;/h2&gt;&#xA;&lt;p&gt;👉 &lt;a href=&#34;https://oscar845-s.github.io/PORTAFOLIO/practicas/&#34;&gt;Ver todas las prácticas&lt;/a&gt;&lt;br&gt;&#xA;👉 &lt;a href=&#34;https://oscar845-s.github.io/PORTAFOLIO/posts/&#34;&gt;Inicio&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-última-actualización&#34;&gt;🌟 Última actualización&lt;/h2&gt;&#xA;&lt;p&gt;Estoy trabajando en mejorar el sitio y subir más contenido poco a poco. ¡Gracias por visitarlo!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

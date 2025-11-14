@@ -1,5 +1,11 @@
-theme = 'ananke'
+baseURL = "https://oscar845-s.github.io/PORTAFOLIO/"
+languageCode = "es-mx"
+title = "Portafolio"
+theme = "ananke"
 
+publishDir = "docs"
+
+# Menú
 [[menu.main]]
   name = "Prácticas"
   url = "/practicas/"
@@ -9,4 +15,3 @@ theme = 'ananke'
   name = "Principal"
   url = "/posts/"
   weight = 3
-
