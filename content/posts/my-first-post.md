@@ -16,8 +16,6 @@ Aquí encontrarás todas mis prácticas, proyectos y trabajos del curso.
 
 - Mis prácticas realizadas (con explicaciones y código).
 - Mis trabajos y reportes.
-- Proyectos destacados.
-- Notas personales del proceso de aprendizaje.
 
 ---
 
